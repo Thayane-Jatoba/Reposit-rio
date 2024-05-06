@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.btn-iniciar {
+    padding: 10px 20px;
+    background-color:  rgb(77, 77, 228);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.btn-iniciar:hover {
+    background-color:  rgb(77, 77, 228);
+}
+.search-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color:rgb(77, 77, 228);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(77, 77, 228);
+}
+footer {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.link{
+    padding-top: 10px; /* Preenchimento superior de 10 pixels */
+    padding-bottom: 10px; /* Preenchimento inferior de 10 pixels */
+    padding-left: 20px; /* Preenchimento esquerda de 20 pixels */
+    padding-right: 20px; /* Preenchimento direita de 20 pixels */
+    padding: 10px; /* Preenchimento de 10 pixels em todas as direções */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px; /* Espaçamento entre as células da grade de 20 pixels */
+}
+.link a{
+    text-decoration: none;
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+header {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    justify-content: center;
+   
+    
+}
+
+main {
+    padding: 5px;
+}
+
+a {
+    color:  rgb(77, 77, 228);
+    text-decoration: none;
+    min-width: 150%;
+    max-width: 150%;
+    margin:auto
+}
+
+a:hover {
+    text-decoration: underline;
+    min-width: 150%;
+    max-width: 150%;
+    margin:auto
+}
+
+footer {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    max-width: 33.33%; /* Define a largura máxima de cada imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    
+}
+
+.logo {
+    margin-right: 10px; /* Espaço entre a logo e o título */
+}
+
+.logo img {
+    width: 200px; /* Largura da imagem da logo */
+    height: auto; /* Mantém a proporção da imagem */
+    justify-content: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.h1{
+    margin-left: 800px;
+}

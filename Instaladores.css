@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.btn-iniciar {
+    padding: 10px 20px;
+    background-color:  rgb(77, 77, 228);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; 
+}
+
+.btn-iniciar:hover {
+    background-color:  rgb(77, 77, 228);
+}
+.search-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color:rgb(77, 77, 228);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(77, 77, 228);
+}
+footer {
+    background-color: rgb(77, 77, 228);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.links-container {
+    display: flex; /* Exibe os grupos de links em uma linha */
+    flex-wrap: wrap; /* Permite que os grupos de links quebrem para a próxima linha conforme necessário */
+    gap: 20px; /* Adiciona espaço entre os grupos de links */
+    margin: 10px; /* Adiciona uma margem de 10 pixels em todas as direções */
+    padding: 15px;
+    grid-template-columns: auto auto;
+}
+
+.link-group {
+    flex: 1; /* Faz com que os grupos de links ocupem o mesmo espaço horizontalmente */
+    margin-bottom: 20px; /* Adiciona espaço abaixo de cada grupo de links */
+    
+    
+}
+
+.link {
+    margin-bottom: 10px; /* Adiciona espaço entre os links dentro de cada grupo */
+}
+
+.link a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color:  rgb(77, 77, 228);
+}
